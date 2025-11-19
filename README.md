@@ -18,6 +18,7 @@ The project supports:
 - Demo video recording
 
 # Repository Structure
+```text
 Gym-CarRacing-RL/
 │
 ├── sac/
