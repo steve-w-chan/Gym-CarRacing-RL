@@ -21,19 +21,19 @@ The project supports:
 ```text
 Gym-CarRacing-RL/
 │
-├── sac/
+├── SAC/
 │   ├── carracing_sac.ipynb
 │   ├── models_SAC/       # Saved model checkpoints
 │   ├── logs_SAC/         # Reward logs
 │   └── videos_SAC/       # Demo videos
 │
-├── ppo/
+├── PPO/
 │   ├── carracing_ppo.ipynb
 │   ├── models_PPO/
 │   ├── logs_PPO/
 │   └── videos_PPO/
 │
-├── dqn/
+├── DQN/
 │   ├── carracing_dqn.ipynb
 │   ├── models_DQN/
 │   ├── logs_DQN/
@@ -45,10 +45,11 @@ Gym-CarRacing-RL/
 # Training
 Training progression follows:
 ```text
-0 → 100k steps  
-100k → 300k  
+0 → 300k steps   
 300k → 600k  
 600k → 1M
+1M → 2M
+...
 ```
 
 Each stage:
@@ -73,7 +74,7 @@ This will:
 # Demo
 Videos are saved in:
 ```text
-videos_SAC/
-videos_PPO/
-videos_DQN/
+SAC/videos_SAC/
+PPO/videos_PPO/
+DQN/videos_DQN/
 ```
