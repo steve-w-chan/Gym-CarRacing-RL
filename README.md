@@ -1,5 +1,5 @@
-# CarRacing-v2 Deep Reinforcement Learning Project
-Training SAC / PPO / DQN agents on Gymnasium CarRacing-v2
+# CarRacing-v3 Deep Reinforcement Learning Project
+Training SAC / PPO / DQN agents on Gymnasium CarRacing-v3
 
 # Project Overview
 This repository implements vision-based reinforcement learning agents for
@@ -39,6 +39,11 @@ Gym-CarRacing-RL/
 │   ├── logs_DQN/
 │   └── videos_DQN/
 │
+├── best_model/
+│   ├── best_sac/
+│   ├── best_ppo/
+│   └── best_dqn/
+|
 └── README.md
 ```
 
@@ -64,11 +69,10 @@ To evaluate a checkpoint:
 evaluate_checkpoint(300000)
 ```
 This will:
-- run 5 evaluation episodes
+- run 10 evaluation episodes
 - compute:
   - mean reward
   - variance
-  - best/worst episode
 - store logs in logs_SAC/
 
 # Demo
