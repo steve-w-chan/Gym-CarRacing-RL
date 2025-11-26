@@ -3,7 +3,7 @@ Training SAC / PPO / DQN agents on Gymnasium CarRacing-v3
 
 # Project Overview
 This repository implements vision-based reinforcement learning agents for
-Gymnasium's CarRacing-v2 environment.
+Gymnasium's CarRacing-v3 environment.
 
 We train three algorithms:
 - SAC (Soft Actor-Critic)
@@ -13,7 +13,7 @@ We train three algorithms:
 The project supports:
 - Modular per-algorithm notebooks
 - Live reward plotting
-- Checkpoint saving (100k → 1M steps)
+- Checkpoint saving
 - Evaluation pipeline (mean reward, variance)
 - Demo video recording
 
